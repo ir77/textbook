@@ -7,8 +7,8 @@ HTMLやCSSなどのWebの勉強ではありませんが、エディタを自分�
 まずはSublimeTextの環境設定を変更してみましょう。
 上のメニューに
 
-- Sublime Text2>Preferences>Settings - Default
-- Sublime Text2>Preferences>Settings - User
+- Sublime Text2 > Preferences > Settings - Default
+- Sublime Text2 > Preferences > Settings - User
 
 があることを確認してください。
 
@@ -17,12 +17,12 @@ HTMLやCSSなどのWebの勉強ではありませんが、エディタを自分�
 それぞれ「Default」がもとの設定集で、
 「User」に自分好みの設定を書くことで「Default」の設定を上書きすることができます。
 
-例えば"font_size"を変更してみましょう。
-「Default」ファイルで"font_size"を設定している場所を確認してみます。
+例えば`"font_size"`を変更してみましょう。
+「Default」ファイルで`"font_size"`を設定している場所を確認してみます。
 
 ![default_font_size](./images/2.png)
 
-15行目で"font_size"が10で設定されていることが分かりました。
+15行目で`"font_size"`が10で設定されていることが分かりました。
 これを「User」で以下のように書くことで上書きすることができます。
 
 ![user_font_size](./images/3.png)
@@ -65,11 +65,11 @@ SublimeText3を使っている場合や、上記コードが動かない場合�
 Emmetを導入することで、HTMLやCSSを高速を書けるようになります。以下に使い方の例をあげます。
 
 index.htmlで
-- 「!」と記述したあとに「tab」キーを押してください
-- 「h1」と記述したあとに「tab」キーを押してください
+- 「!」と記述したあとに「Tab」キーを押してください
+- 「h1」と記述したあとに「Tab」キーを押してください
 
 style.cssで
-- 「fz」と記述したあとに「tab」キーを押してください
+- 「fz」と記述したあとに「Tab」キーを押してください
 
 !の例
 
@@ -97,9 +97,9 @@ ColorPicerは色の設定を視覚的に行いやすくすることができる�
 
 そこで```#ABC```にカーソルを合わせてOSごとに以下のショートカットキーを入力してください。
 
-- Linux: ctrl+shift+c
-- Windows: ctrl+shift+c
-- OS X: cmd+shift+c
+- Linux: Ctrl+Shift+C
+- Windows: Ctrl+Shift+C
+- OS X: ⇧⌘C
 
 こんなカラーピッカーは現れましたか？
 

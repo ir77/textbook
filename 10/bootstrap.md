@@ -12,23 +12,44 @@ Bootstapの導入について説明します。
 「Download Bootstrap」のボタンを押しましょう。
 なお、本記事作成時のBootstrapのバージョンは3.3.5です。
 
-次に[Basic template](http://getbootstrap.com/getting-started/#template)
-を開いてBasic Templateをコピーし、index.htmlファイルを作成してください。以降ではこのBasic Templateを基にしてコーディングを行います。
+下記のHTMLをコピーし、index.htmlファイルを作成してください。
+以降ではこのindex.htmlファイルを基にしてコーディングを行います。
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+
+  <body>
+
+    <!-- Type your code here -->
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+```
 
 ### ナビゲーションバー
-まずは色んなサイトで使われているナビゲーションバーを作成しましょう。以下のhtmlのコードを作成したindex.htmlに追記してください。
+まずは色んなサイトで使われているナビゲーションバーを作成しましょう。以下のHTMLのコードを作成したindex.htmlに追記してください。
 
 ```html
 <nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="navbar-header">
-		<a class="navbar-brand" href="">Dotinstall</a>
-	</div>
-	<ul class="nav navbar-nav">
-		<li><a href="">ABOUT</a></li>
-		<li class="active"><a href="">MENTOR</a></li>
-		<li><a href="">NEWS</a></li>
-		<li><a href="">FAQ</a></li>
-	</ul>
+  <div class="navbar-header">
+    <a class="navbar-brand" href="">Dotinstall</a>
+  </div>
+  <ul class="nav navbar-nav">
+    <li><a href="">ABOUT</a></li>
+    <li class="active"><a href="">MENTOR</a></li>
+    <li><a href="">NEWS</a></li>
+    <li><a href="">FAQ</a></li>
+  </ul>
 </nav>
 ```
 
@@ -39,7 +60,7 @@ Bootstapの導入について説明します。
 > http://getbootstrap.com/components/#navbar
 
 ### グリッドシステム
-index.htmlに、下記のhtmlを写してください。
+index.htmlに、下記のHTMLを写してください。
 
 ```html
 <div id="header" class="container" style="background:gray;">header</div>
@@ -148,7 +169,7 @@ col-3やcol-6は割合を示していて、合計で12になるようにしま�
 > http://getbootstrap.com/javascript/#alerts
 
 ## まとめ
-bootstrapを使うことで簡単に見た目をカスタマイズできることが分かりましたか？
+Bootstrapを使うことで簡単に見た目をカスタマイズできることが分かりましたか？
 
 ## 参考
 ドットインストール
